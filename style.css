@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:2% 50px;
+}
+header h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    padding: 0 5%;
+}
+header li{
+    padding: 20px;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: rgb(224, 200, 164);
+    font-size: 20px;
+}
+.mySlides{
+    width: 100%;
+}
+.first_text{
+    display: flex;
+    padding: 10px 3%;
+    align-items: center;
+}
+.first_text .left{
+    width: 100%;
+}
+.first_text .left h1{
+    font-size: 35px;
+    color: rgb(224, 200, 164);
+    font-weight: 500;
+}
+.first_text .left h2{
+    padding-top: 40px;
+    font-weight: 200;
+}
+.first_text .right{
+    width: 100%;
+}
+.first_text .right img{
+    width: 100%;
+}
+.first_text .right h3{
+    font-weight: 200;
+}
+footer{
+    display: flex;
+}
